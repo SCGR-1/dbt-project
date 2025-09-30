@@ -1,0 +1,13 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      threads: 16
+      account: FT00262
+      user: SCGR
+      database: analytics
+      warehouse: transforming
+      schema: dbt
+      password: "\x16"
+      role: ACOUNTADMIN
